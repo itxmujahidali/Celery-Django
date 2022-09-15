@@ -5,10 +5,11 @@
 - pip install django-celery-beat
 
 ## Run Project:
+### Run All these command parallelly
 - PROJECT NAME :      "celery_core" <-- (Don't Run it)
-- RUN DJANGO SERVER:  python3 manage.py runserver
-- RUN CELERY:         celery -A [PROJECT_NAME].celery worker --loglevel=info
-- RUN CELERY BEAT:    celery -A [PROJECT_NAME] worker --beat --scheduler django --loglevel=info
+- RUN DJANGO SERVER:  **python3 manage.py runserver**
+- RUN CELERY:         **celery -A [PROJECT_NAME].celery worker --loglevel=info**
+- RUN CELERY BEAT:    **celery -A [PROJECT_NAME] worker --beat --scheduler django --loglevel=info**
 
 ## Additional Information step-by-step:
 
